@@ -1,0 +1,46 @@
+.youtubers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    
+}
+.youtuber{
+    padding: 20px 15px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(235, 229, 229);
+    border-radius: 10px;
+    border-right: 1px solid gray;
+
+}
+.youtuber:hover{
+    transform: scale(1.1);
+    
+
+}
+.youtuber button{
+    background-color: rgb(207, 8, 8);
+    color: white;
+    border: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.youtuber img{
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin: auto;
+  
+}
+.details{
+    margin-top: 10px;
+   
+}

@@ -1,0 +1,10 @@
+.youtubersContainer{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.summary{
+    margin-top: 45px;
+border-left: 1px solid gray;
+padding-left: 20px;
+    
+}
